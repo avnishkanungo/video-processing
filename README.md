@@ -1,4 +1,4 @@
-# video-processing
+# Video Processing Project
 
 Local video processing server, implemented primarily using gcp:
 - Artifacts
