@@ -1,0 +1,19 @@
+.signin {
+    position: absolute;
+    right: 1em; /* Pushes the button to the far right */
+    top: 1em; /* Aligns button with top of the navbar */
+    display: inline-block;
+    border: 1px solid gray;
+    color: #065fd4;
+    padding: 10px 20px;
+    border-radius: 24px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+.signin:hover {
+    background-color: #bee0fd;
+    border: 1px solid transparent;
+  }

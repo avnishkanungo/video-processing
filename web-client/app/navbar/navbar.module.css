@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+}
+
+.logocontainer{
+    cursor: pointer;
+    align-items: center;
+    cursor: pointer;
+    order: -1; /* Ensure the logo comes before the text */
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+    /* border-radius: 100%; */
+}
+
+.title {
+    font-size: 1.5rem; /* Adjust font size if necessary */
+    font-weight: bold;
+}

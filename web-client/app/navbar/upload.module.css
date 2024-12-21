@@ -1,0 +1,23 @@
+.uploadInput {
+    display: none; /* Hide the default input */
+  }
+  
+  .uploadButton {
+    display: flex; /* Use Flexbox to center the text */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; /* Make it circular */
+    color: black; /* Color of the text */
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 0.4em;
+    position: relative; /* Add position relative to the button */
+    left: 500px; /* Adjust the right position to move the icon to the right */
+  }
+  
+  .uploadButton:hover {
+    background-color: rgb(230, 230, 230);
+  }
